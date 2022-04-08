@@ -1,0 +1,6 @@
+.AdHolder, [data-asin='']:not(.a-section), 
+._dGV0c_adLabelContainer_2DLr0, 
+.amzn-safe-frame-container, 
+.a-section > .s-widget-container:not([cel_widget_id]) {
+    display: none !important;
+}
