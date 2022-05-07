@@ -17,10 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Use Node.js $node-version
+      - name: Use Node.js ${{ env.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: $node-version
+          node-version: ${{ env.node-version }}
           cache: 'npm'
 
       - run: npm ci
