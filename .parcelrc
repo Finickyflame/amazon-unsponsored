@@ -1,0 +1,3 @@
+﻿{
+	"extends": "@parcel/config-webextension"
+}

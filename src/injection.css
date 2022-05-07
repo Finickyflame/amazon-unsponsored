@@ -1,6 +1,8 @@
-.AdHolder, [data-asin='']:not(.a-section), 
+.AdHolder, 
+[data-asin='']:not(.a-section):not(.s-result-item), 
 ._dGV0c_adLabelContainer_2DLr0, 
 .amzn-safe-frame-container, 
-.a-section > .s-widget-container:not([cel_widget_id]) {
+.a-section .s-widget-container:not([cel_widget_id]),
+.rush-component > .s-card-container {
     display: none !important;
 }
